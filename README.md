@@ -1,55 +1,30 @@
-# Dreadful Tomato
+# Getting Started with Create React App
 
-Dreadful Tomato is a new platform to find new movies and TV shows. The main objective is to
- help users to find information about their favourite TV shows and movies.
- 
-To do so, the company has to create a new web app that allow users do some fancy things.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## What do you have to do?
+## Available Scripts
 
-Dreadful Tomato needs to implement an awesome webpage where the users could view information
- about almost every new TV Shows and movie.
- 
-The Design team has sent us the new interface which has to be implemented. As you could see,
- there are three different pages.
- 
-* The first page is a landing page where user could select whether she wants to see TV shows
- or movies and some claims and logo of Dreadful Tomato
-* The second one is the list of TV shows. Here, the user could filter TV shows by title and
- release year. In that page the user will see a list of card with the Title, description
- and image from each TV show. 
-* The third one is quite similar, but for the movies. The user could filter by title and
- release year as well, to see a list of cards with the information of every movie.
- 
-Here you could see the design of the 3 pages:
+In the project directory, you can run:
 
-Home page:
+### `npm start`
 
-![](images/Dreadful%20Tomato%20-%20HOME.png)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-TV shows page:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-![](images/Dreadful%20Tomato%20-%20POPULAR%20SERIES.png)
+### `npm test`
 
-Movies page:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-![](images/Dreadful%20Tomato%20-%20POPULAR%20MOVIES.png) 
- 
-## Technical Requirements
+### `npm run build`
 
-Their CTO has no time to implement that, but she has defined some technical constraints:
- 
- * This webapp has to be develop using React
- * Use and create reusable [Carbon](https://www.carbondesignsystem.com/) components
- * Create a **clean, maintainable and well-designed** code
- * Test your code until you are comfortable with that
- 
-#### Considerations
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
- * To obtain the data of the TV Shows and Movies, you have to request [that file](https://gitlab.com/-/snippets/2041384/raw/master/data.json).
- * Use SCSS or SASS to manage your stylesheets
- * Use any component you want in the date picker to allow the user select the Year
- * Pay attention to hover effects (Home and Shows/Movies cards) 
- 
-To understand how you take decisions during the implementation, please write a README file
- explaining some of the most important parts of the application.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
